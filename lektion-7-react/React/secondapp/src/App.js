@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Welcome1 from './components/Welcome1'
+import Welcome2 from './components/Welcome2'
+import Welcome3 from './components/Welcome3'
+import Welcome4 from './components/Welcome4'
+import Alert from './components/Alert'
+import Navbar from './components/Navbar'
+
+
+
+export default function app() {
+    return (
+        <div>
+           <Navbar />
+           <Alert />
+           <Welcome1 />
+           <Welcome2 />
+           <Welcome3 />
+           <Welcome4 />
+        </div>
+    )
 }
-
-export default App;
