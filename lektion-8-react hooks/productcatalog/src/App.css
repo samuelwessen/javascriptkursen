@@ -1,0 +1,30 @@
+#product-catalog {
+    font-size: 1.1rem;
+    color: gray;
+}
+
+#product-catalog .name {    
+    font-weight: 500;
+}
+
+#product-catalog .description {
+    font-size: 0.8rem;    
+}
+
+#product-catalog i {
+    margin-left: 1.3rem;
+    font-size: 1.1rem;
+
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.in-stock {
+    color: #a9d18e
+}
+
+.out-of-stock {
+   color: #ffd966; 
+}
